@@ -102,8 +102,8 @@ public class WebviewActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 EditText mWebviewURLView = (EditText) findViewById(R.id.url_webview);
-                myWebView.loadUrl("http://google.com");
-                mWebviewURLView.setText("http://google.com", TextView.BufferType.EDITABLE);
+                myWebView.loadUrl("https://google.com");
+                mWebviewURLView.setText("https://google.com", TextView.BufferType.EDITABLE);
             }
 
         });
